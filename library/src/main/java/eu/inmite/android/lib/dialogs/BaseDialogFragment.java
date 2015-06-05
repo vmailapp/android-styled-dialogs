@@ -401,7 +401,9 @@ public abstract class BaseDialogFragment extends DialogFragment {
 		listView.setSelector(getListItemSelector());
 		listView.setOnItemClickListener(mOnItemClickListener);
 		if (mListCheckedItemIdx != -1) {
-		    listView.setSelection(mListCheckedItemIdx);
+            listView.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
+		    listView.setItemChecked(mListCheckedItemIdx, true);
+            listView.setSelection(mListCheckedItemIdx);
 		}
 		content.addView(listView);
 	    }
