@@ -1,5 +1,9 @@
 # Changelog
 
+See newest changelog in [Releases](https://github.com/avast/android-styled-dialogs/releases)
+
+Older versions:
+
 ## 1.1.2
 
 January 2, 2014
