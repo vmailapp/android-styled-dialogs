@@ -20,5 +20,3 @@ dependencies {
     compile 'com.android.support:support-v4:19.1.0'
 }
 
-// Used to push in maven
-apply from: '../maven_push.gradle'
