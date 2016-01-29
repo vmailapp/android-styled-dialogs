@@ -6,13 +6,12 @@ repositories {
 
 android {
     compileSdkVersion 19
-    buildToolsVersion "20"
+    buildToolsVersion "23.0.2"
 
     defaultConfig {
         minSdkVersion 7
         targetSdkVersion 19
-        versionName project.VERSION_NAME
-        versionCode Integer.parseInt(project.VERSION_CODE)
+
     }
 }
 
